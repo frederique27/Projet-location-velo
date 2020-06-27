@@ -1,0 +1,220 @@
+body {
+    margin: 2%;
+    background: #eaf1f3;
+}
+
+/* Slider */
+#slider_velo {
+    width: 60vw;
+    margin: auto;
+    position: relative;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 10px 1px #a5a9ad;
+}
+
+.butt {
+    width: 40px;
+     height: 40px;
+     background: rgba(16, 16, 16, 0.6);
+     position: absolute;
+     border-radius: 50%;
+     cursor: pointer;
+}
+
+.butt p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+ }
+
+ .butt-right {
+     right: 10px;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .butt-left {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+ }  
+
+ .butt-pause {
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: white;
+    background-color: rgba(16, 16, 16, 0.6);
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+ } 
+
+ #textImg {
+    color: white;
+    font-size: 75%;
+    position: absolute;
+    top: 1%;
+    text-shadow: black 0px 0px 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: verdana;
+ }
+
+ /* Map et Formulaire */
+
+ #map_form {
+     margin-top: 3%;
+     height: 60vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ #mapid { 
+     height: 100%; 
+     width: 70%;
+     border-radius: 5px;
+     box-shadow: 1px 1px 10px 1px #a5a9ad;
+ }
+
+ #reservation {
+     height: 100%;
+     width: 27%;
+     border: 1px solid #a5a9ad;
+     border-radius: 5px;
+     box-shadow: 1px 1px 10px 1px #a5a9ad;
+     position: relative;
+     background: #dce7f1;
+ }
+
+ .form_map {
+     height: 13%;
+     width: 90%;
+     font-size: 15px;
+     text-align: center;
+     margin: 3px auto;
+     font-family: bookman old style;
+ }
+
+ #form_info {
+     height: 48%;
+     text-align: center;
+ }
+
+label {
+    font-size: 16px;
+    display: block;
+    margin: 3px auto;
+    font-family: bookman old style;
+}
+
+input {
+    display: block;
+    margin: auto;
+    border: 1px solid #9c9999;
+    border-radius: 2px;
+}
+
+#envoyer {
+    margin-top: 20px;
+    background: #aad3df;
+    border: 2px solid #98acbb;
+    border-radius: 5px;
+    padding: 2px;
+    font-family: bookman old style;
+}
+
+#signature {
+    width: 100%;
+    height: 100%;
+    display: none;
+    border: 1px solid #a5a9ad;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #a5a9ad;
+    position: absolute;
+    top: 0%;
+    background: #dce7f1;
+}
+
+#signature p {
+    margin: 20px auto;
+    text-align: center;
+    height: 10%;
+    font-family: bookman old style;
+}
+
+#sign_square {
+    margin: auto;
+    border: 2px solid gray;
+    background: white;
+    border-radius: 5px;
+    display: block;
+}
+
+#signature button {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    background: #aad3df;
+    border: 2px solid #98acbb;
+    border-radius: 3px;
+    padding: 5px;
+    font-family: bookman old style;
+    display: block;
+}
+
+#effacer {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    background: #aad3df;
+    border: 2px solid #98acbb;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: bookman old style;
+    display: block;
+    width: 50px;
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+}
+
+/* Timer */
+#timer_info {
+    width: 100%;
+    height: 40px;
+    display: none;
+    border: 3px solid #8d9eab;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+#info_reservation {
+    width: 80%;
+    margin: auto;
+}
+
+#timer {
+    margin: auto;
+    font-weight: 600;
+    width: 10%;
+    text-align: center;
+}
+
+#annuler {
+    font-size: 12px;
+    padding: 0 3px;
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 3px;
+}
